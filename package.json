@@ -1,0 +1,41 @@
+{
+  "name": "boilerplate-node-project",
+  "version": "1.0.0",
+  "description": "boilerplate node project",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.6.5",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-cachebust": "0.0.5",
+    "gulp-concat": "^2.5.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-html-replace": "^1.4.4",
+    "gulp-html-src": "^1.0.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-uglify": "^1.1.0"
+  },
+  "scripts": {
+    "preinstall": "node bin/preinstall.js",
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "stage": "NODE_ENV=stage node server.js",
+    "prod": " node_modules/gulp/bin/gulp.js  && NODE_ENV=production node index.js",
+    "test": " node_modules/gulp/bin/gulp.js && NODE_ENV=test ./node_modules/mocha/bin/mocha lib/tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Geries Handal",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}

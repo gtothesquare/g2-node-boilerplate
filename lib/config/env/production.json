@@ -1,0 +1,5 @@
+{
+  "port": 8000,
+  "greeting": "production server env started",
+  "clientAppDir": "../../public"
+}
