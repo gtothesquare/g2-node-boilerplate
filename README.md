@@ -1,4 +1,4 @@
-Boilerplate web boli
+Boilerplate web node
 
 to make components first class we use 
 ```
